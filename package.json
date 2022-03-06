@@ -1,0 +1,24 @@
+{
+  "name": "backend-ecommerce",
+  "version": "1.0.0",
+  "description": "backend para proyecto codigo basodo en crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar-steven/backend-proyects.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "prisma"
+  ],
+  "author": "oscar perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscar-steven/backend-proyects/issues"
+  },
+  "homepage": "https://github.com/oscar-steven/backend-proyects#readme"
+}
