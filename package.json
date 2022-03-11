@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "backend para proyecto codigo basodo en crud",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start:dev": "dotenv -e .env -- nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/oscar-steven/backend-proyects/issues"
   },
-  "homepage": "https://github.com/oscar-steven/backend-proyects#readme"
+  "homepage": "https://github.com/oscar-steven/backend-proyects#readme",
+  "dependencies": {
+    "@prisma/client": "^3.10.0",
+    "express": "^4.17.3",
+    "prisma": "^3.10.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^5.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
